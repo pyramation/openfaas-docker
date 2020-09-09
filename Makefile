@@ -16,3 +16,9 @@ latest:
 	docker tag pyramation/openfaas-node:0.7.2-12.18.2-alpine3.11 pyramation/openfaas-node:latest
 	docker push pyramation/of-watchdog:latest
 	docker push pyramation/openfaas-node:latest
+
+push:
+	docker push pyramation/openfaas-node:0.7.2-12.18.2-alpine3.11
+	docker push pyramation/of-watchdog:0.7.2-alpine3.11
+	docker push pyramation/of-watchdog:latest
+	docker push pyramation/openfaas-node:latest
